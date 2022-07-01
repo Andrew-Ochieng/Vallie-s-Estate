@@ -1,24 +1,54 @@
 *{
-    font-family: 'Poppins';
+    font-family: 'Space Grotesk', sans-serif;
+    /* font-family: 'Oleo Script', 'cursive'; */
+}
+
+/* colors: #2549D3, #0F298B, #FAFAFA */
+
+
+/* navbar */
+.navbar-container {
+    flex: auto;
+    flex-direction: row;
+}
+
+.navbar.navbar-container.logo {
+    font-family: 'Oleo Script', 'cursive';
 }
 
 
 
+/* hero */
+
+
+/* search */
+
+/* products */
+
+/* why choose us */
+.choose {
+    flex: auto;
+    flex-direction: row;
+    justify-items: center;
+
+}
+
+/* featured products */
+
+/* testimonials */
+
+/* footer */
 
 
 
+/* general */
+#btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.8rem;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
