@@ -17,7 +17,7 @@ body {
 
 /* navbar */
 .navbar {
-    padding: 20px 40px;
+    padding: 20px 100px;
 
 }
 
@@ -25,11 +25,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 #logo h3 {
     font-family: 'Oleo Script', 'cursive';
-    font-size: 48px;
+    font-size: 40px;
 
 }
 
@@ -48,17 +49,16 @@ body {
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    list-style: none;
 }
 
-#menu-list li a {
-    padding: 0px 40px;
+#menu-list li {
+    padding: 20px;
+}
+
+#menu-list li a {   
     text-decoration: none;
 }
-
-
-/* .menu {
-
-} */
 
 #menu-list {
     flex: auto;
@@ -68,8 +68,16 @@ body {
 }
 
 #menu-list a {
+    color: black;
     text-decoration: none;
 }
+
+#menu-list #active a {
+    color: #0F298B;
+}
+
+
+
 
 
 /* hero */
@@ -93,6 +101,7 @@ body {
 #hero-btn {
     padding: 16px 24px;
     color: #FAFAFA;
+    font-size: larger;
     background-color: #2549D3;
     cursor: pointer;
     border: none;
@@ -200,6 +209,12 @@ body {
     float: left;
 }
 
+#featured-cards {
+    background-color: white;
+    padding-bottom: 20px;
+    margin: 20px;
+
+}
 
 
 /* testimonials */
