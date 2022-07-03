@@ -56,8 +56,14 @@ body {
     padding: 20px;
 }
 
-#menu-list li a {   
+#menu-list li a {
+    font-weight: 500;  
+    color: black;
     text-decoration: none;
+}
+
+#menu-list #active a {
+    color: #0F298B;
 }
 
 #menu-list {
@@ -67,15 +73,10 @@ body {
     font-size: large;
 }
 
-#menu-list a {
-    color: black;
-    text-decoration: none;
-}
 
-#menu-list #active a {
-    color: #0F298B;
+hr {
+    color: rgba(185, 185, 185, 0.788);
 }
-
 
 
 
@@ -109,9 +110,8 @@ body {
 
 }
 
-
 .hero #img1 {
-    height: 80%;
+    height: 100%;
     width: 80%;
     
 }
@@ -122,9 +122,9 @@ body {
 /* search */
 .search {
     background-color: white;
-    margin: 0px 200px;
+    margin: 0px 240px;
     padding: 40px;
-    border-radius: 1.0rem;
+    border-radius: 1.6rem;
 }
 
 .search h1 {
@@ -134,29 +134,43 @@ body {
 
 
 /* products */
-.products div .products-cards {
+.products-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 4.8rem;
 }
 
 .products {
     margin: 50px 100px;
 }
-.products h3, .products h5 {
+
+.products h1, .products h2 {
+    color: #0F298B;
+
+}
+
+.products h2, .products h3 {
     text-align: center;
 }
 
-.products div .products-cards div {
-    margin: 40px;
+.products-cards h2 {
+    padding-bottom: 8px;
+}
+
+.products-cards div {
+    text-align: center;
+    margin: 40px 0px;
     background-color: white;
-    padding: 0.8rem 2.0rem;
+    padding: 2.0rem;
     box-shadow: 1.2rem;
 } 
 
 
 
 .products .products-cards img {
+    align-items: center;
+    padding-bottom: 40px;
     max-width: 60%;
     max-height: 30%;
     align-items: center;
@@ -166,11 +180,25 @@ body {
 
 
 /* why choose us */
-.flex-container div .cartegories {
+.choose {
+    /* padding: 0px 100px; */
+    margin: 100px 0px;
+}
+
+.cartegories {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+.cartegories h4 {
+    padding: 10px 0px;
+}
+
+.cartegories #core {
+    margin: 30px 0;
 }
 
 .box2 h3 {
@@ -180,8 +208,8 @@ body {
 }
 
 .flex-container #img2 {
-    width: 60%;
-    height: 90%;
+    width: 50%;
+    height: 100%;
 }
 
 
@@ -190,6 +218,10 @@ body {
 .container-featured {
     max-width: max-content;
     margin: 20px 100px; 
+}
+
+.cards {
+    gap: 4.8rem;
 }
 
 .featured h1 {
@@ -202,7 +234,7 @@ body {
 }
 
 .featured img {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .featured .btn {
@@ -212,9 +244,25 @@ body {
 #featured-cards {
     background-color: white;
     padding-bottom: 20px;
-    margin: 20px;
+    border-radius: 0px 100px 0px 100px;
+    /* margin: 20px; */
 
 }
+
+#card {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#card h3 {
+
+}
+
+#card p {
+    color: #0F298B;
+}
+
 
 
 /* testimonials */
