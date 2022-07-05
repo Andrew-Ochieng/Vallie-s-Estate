@@ -98,6 +98,12 @@ hr {
     padding: 16px 0px;
 }
 
+#hero-learn {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
 #hero-btn {
     padding: 16px 24px;
     color: #FAFAFA;
@@ -114,8 +120,6 @@ hr {
     width: 80%;
     
 }
-
-
 
 /* search */
 .search {
@@ -349,6 +353,8 @@ footer .flex-container h3 {
 }
 
 #btn {
+    /* float: right;
+    clear: left; */
     position: absolute;
     padding: 12px 24px;
     color: #FAFAFA;
