@@ -113,7 +113,6 @@ hr {
     cursor: pointer;
     border: none;
     border-radius: 0.6rem;
-
 }
 
 .hero #img1 {
@@ -122,21 +121,39 @@ hr {
     
 }
 
+
 /* search */
 .search {
     background-color: white;
     margin: 0px 240px;
     padding: 40px;
     border-radius: 1.6rem;
-    box-shadow: 0 4px 8px 0 rgba(187, 187, 187, 0.253), 0 8px 20px 0 rgba(173, 173, 173, 0.303);
+    /* box-shadow: 0 4px 8px 0 rgba(187, 187, 187, 0.253), 0 8px 20px 0 rgba(173, 173, 173, 0.303); */
 
+}
+
+.search:hover {
+    box-shadow: 0 4px 8px 0 rgba(187, 187, 187, 0.253), 0 8px 20px 0 rgba(173, 173, 173, 0.303);
+    transition: 0.8s;
 }
 
 .search h1 {
     font-weight: bold;
 }
 
+#search-btn {
+    padding: 16px 24px;
+    color: #FAFAFA;
+    font-size: larger;
+    background-color: #2549D3;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.6rem;
+}
 
+#search-btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(187, 187, 187, 0.253), 0 8px 20px 0 rgba(173, 173, 173, 0.303);
+}
 
 /* products */
 .products-cards {
@@ -169,7 +186,7 @@ hr {
     margin: 40px 0px;
     background-color: white;
     padding: 2.0rem;
-    box-shadow: 1.2rem;
+    /* box-shadow: 1.2rem; */
 } 
 
 
@@ -182,6 +199,11 @@ hr {
     align-items: center;
     background-size: cover;
 }
+
+#cards {
+    box-shadow: 0 4px 8px 0 rgba(157, 157, 157, 0.253), 0 8px 20px 0 rgba(142, 141, 141, 0.303);
+}
+
 
 
 
@@ -246,8 +268,13 @@ hr {
     float: left;
 }
 
-#featured-cards {
+
+#featured-cards:hover {
     box-shadow: 0 4px 8px 0 rgba(157, 157, 157, 0.253), 0 8px 20px 0 rgba(142, 141, 141, 0.303);
+}
+
+
+#featured-cards {
     background-color: white;
     padding-bottom: 20px;
     border-radius: 0px 100px 0px 100px;
